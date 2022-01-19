@@ -1,0 +1,23 @@
+{
+  "name": "codephix/pipedrive-sdk",
+  "type"       : "library",
+  "description": "PipeDrive.com PHP API Wrapper",
+  "keywords"   : ["PipeDrive", "API", "Integration SaaS"],
+  "homepage": "http://www.pipdrive.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Max Alex",
+      "email": "contato@codephix.com",
+      "homepage": "https://www.codephix.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodePhix\\Pipedrive\\": "src"
+    }
+  }
+}
